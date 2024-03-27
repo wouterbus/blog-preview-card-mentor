@@ -29,7 +29,7 @@ container.addEventListener('mouseleave', () => {
 })
 
 var imageTop = document.createElement('img')
-imageTop.src = '/assets/images/illustration-article.svg'
+imageTop.src = 'assets/images/illustration-article.svg'
 imageTop.width = '250'
 imageTop.style.borderRadius = '10px'
 imageTop.style.marginBottom = '14px'
@@ -62,7 +62,7 @@ creditsContainer.style.gap = '10px'
 creditsContainer.style.alignItems = 'center'
 
 var imageCredits = document.createElement('img')
-imageCredits.src = '/assets/images/image-avatar.webp'
+imageCredits.src = 'assets/images/image-avatar.webp'
 imageCredits.width = '25'
 imageCredits.height = '25'
 imageCredits.style.borderRadius = '50%'
